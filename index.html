@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header>
+        <div class="navbar">
+            <img src="./img/header_logo.png" alt="header logo" />
+            <div class="dropdown">
+                <button class="dropbtn">Plans
+                    <i class="fa fa-angle-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Mathmatics</a>
+                </div>
+            </div>
+            <a href="#" class="active">Pricing</a>
+            <div class="dropdown">
+              <button class="dropbtn">Learn
+                <i class="fa fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">English</a>
+                <a href="#">Mathmatics</a>
+              </div>
+            </div>
+            <a href="#">About</a>
+            <button class="btn" id="start_btn" >Get Started</button>
+            <button class="btn" id="login_btn">Log in</button>
+        </div>
+        <div class="header-content">
+            <p>PRICING</p>
+            <span>Create a Personalized Plan to Fit Your Budget</span>
+        </div>
+    </header>
+    <main>
+        <div class="information">
+            <p style="float:left;">Enter Your Student's Info</p>
+            <div class="input-field" style="float:left;" >
+                <label for="name">Student's Name</label>
+                <input id="name" type="text" value="Charlie" name="name">
+            </div>
+            <div class="input-field" style="float:left;" >
+                <label for="birthday">Student's Birthday</label>
+                <input id="birthday" type="date" value="2022-03-20" name="birthday">
+            </div>
+        </div>
+        <div class="payment">
+            <div class="plan" >                
+                <div style="width: 40%; margin-left: 7%; float:left; padding-top: 58px;">
+                    <div>
+                        <img src="./img/prepaid_plan.png" alt="prepaid plan" style="float:left;" />
+                        <p class="plan-title">Prepaid <br> 529 Plan</p>
+                    </div>
+                    <p class="plan-description">Purchase college tuition in 1-year increments.</p>
+                    <div style="height: 260px">
+                        <div class="plan-item">
+                            <p>Plan Coverage</p>
+                            <span>Tuition and fees</span>
+                        </div>
+                        <div class="plan-item">
+                            <p>Payment Frequency</p>
+                            <span>Fixed monthly payments</span>
+                        </div>
+                        <div class="plan-item">
+                            <p>Enjoy the Benefit of</p>
+                            <span>100% risk-free college savings</span>
+                        </div>
+                    </div>
+                    <p class="plan-information">
+                        Learn more about Prepaid Plans 
+                        <i class="fa fa-question-circle"></i>
+                    </p>
+                    <div class="divider"></div>
+                    <div class="input-field" >
+                        <label for="tuitionYears">Select number of years of tuition</label>
+                        <select name="tuitionYears" id="tuitionYears">
+                            <option value="1">1 Year (30 Credit Hours) - $45.87</option>
+                            <option value="2">2 Years (60 Credit Hours) - $92.98</option>
+                            <option value="3">3 Years (90 Credit Hours) - $146.86</option>
+                            <option value="4">4 Years (120 Credit Hours) - $213.65</option>
+                            <option value="5">5 years ( 150 Credit Hours) - $276.48</option>
+                        </select>
+                    </div>
+                    <div class="input-field" >
+                        <label for="dormYears">Select number of years of dorm</label>
+                        <select name="dormYears" id="dormYears">
+                            <option value="1">1 Year Dorm - $50.28</option>
+                            <option value="2">2 Year Dorm - $100.18</option>
+                            <option value="3">3 Year Dorm - $155.27</option>
+                            <option value="4">4 Year Dorm - $205.46</option>
+                            <option value="5">5 Year Dorm - $255.65</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div style="width: 40%; margin-left: 7%; float:left; padding-top: 58px;">
+                    <div>
+                        <img src="./img/investment_plan.png" alt="prepaid plan" style="float:left;" />
+                        <p class="plan-title">Investment <br> 529 Plan</p>
+                    </div>
+                    <p class="plan-description">Invest to save for a variety educational expenses.</p>
+                    <div style="height: 260px">
+                        <div class="plan-item">
+                            <p>Plan Coverage</p>
+                            <span>College expenses</span>
+                        </div>
+                        <div class="plan-item">
+                            <p>Payment Frequency</p>
+                            <span>You choose how much, and when</span>
+                        </div>
+                        <div class="plan-item">
+                            <p>Enjoy the Benefit of</p>
+                            <span>Choosing from a variety of investment options</span>
+                        </div>
+                    </div>
+                    <p class="plan-information">
+                        Learn more about Prepaid Plans 
+                        <i class="fa fa-question-circle"></i>
+                    </p>
+                    <div class="divider"></div>
+                    <div class="input-field">
+                        <label for="monthlyInvestment">Select monthly investment</label>
+                        <div style="position: relative; color: var(--color-black)">
+                            <input id="monthlyInvestment" type="number" value="50.00" name="monthlyInvestment" style="padding-left: 25px;">
+                            <div style="position: absolute; width: 100%; height: 100%; top: 0px; display: flex; justify-content: space-between; align-items: center; padding: 0px 10px; padding-right: 40px; pointer-events: none;">
+                                <div>$</div>
+                                <div>/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="budget">
+                <p style="font-weight: 500; font-size: 34px; line-height: 110%; letter-spacing: -0.01em; margin-bottom: 60px;">
+                    Estimated<br>Monthly Budget
+                </p>
+                <img src="./img/pig_icon.png" alt="pig icon" />
+                <p style="font-weight: 700; font-size: 75px; line-height: 110%; letter-spacing: -0.01em; padding-top: 8px;" id="result">
+                   $95.87
+                </p>
+                <p style="font-weight: 400; font-size: 44px; line-height: 110%; letter-spacing: -0.01em; padding-top: 8px; margin-bottom: 110px;">
+                   /month
+                </p>
+                <div class="divider" style="background-color: white; height: 6px;"></div>
+                <p style="font-weight: 400; font-size: 22px; line-height: 160%; letter-spacing: -0.01em; margin-top: 40px;">
+                    Estimated plan value when your child starts college in <strong>2400</strong>
+                </p>
+                <p style="font-weight: 500; font-size: 42px; line-height: 150%; letter-spacing: -0.01em; padding-top: 8px;">
+                    $33,000 *
+                </p>
+            </div>
+        </div>
+        <div class="explore">
+            <p>Want help building your plan?</p>
+            <div>
+                <span>
+                    Use our <strong><ins>Plan Building Tool</ins></strong> to walk through your options to custom build the perfect plan <br>for your family.
+                </span>
+            </div>
+            <button>Explore Building Your Plan</button>
+        </div>
+        <div class="enroll">
+            <img src="./img/loading.png" alt="loading logo" /> 
+            <p style="font-weight: 700; font-size: 54px; line-height: 100%; letter-spacing: -0.01em; padding-top: 27px;">
+                Enroll in 10 minutes or less
+            </p>
+            <p style="font-weight: 400; font-size: 24px; line-height:160%; letter-spacing: -0.01em; padding-top: 27px; padding-bottom: 50px;">
+                Further adjust your budget and selections, including adding a Prepaid <br>Dormitory Plan, in the enrollment application.
+            </p>
+            <div style="margin: auto; display: flex; width: max-content;">
+                <button class="btn" id="enroll_btn" >Enroll Now</button>
+                <button class="btn" id="email_price_btn" >Email My Prices</button>
+            </div>
+        </div>
+        <div class="fact">
+            <div class="note">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 35px;">
+                    <p style="font-weight: 700; font-size: 20px; line-height:120%; letter-spacing: -0.01em; color: var(--color-blue-dark);">
+                        FUND FACT
+                    </p>
+                    <div style="width: 130px; height: 1px; background-color: var(--color-blue-dark);"></div>
+                    <img src="./img/light.png" alt="light" />
+                </div>
+                <p style="font-weight: 400; font-size: 20px; line-height:160%; letter-spacing: -0.01em; padding-bottom: 35px; color: var(--color-gray-darkest)">
+                    The average cost of dinner out for a family of 4 is <b>$XX.XX</b>
+                </p>
+                <p style="font-weight: 400; font-style: italic; font-size: 14px; line-height:140%; letter-spacing: -0.02em; color: var(--color-blue-dark)">
+                    <img src="./img/star.png" alt="star" />
+                    Fidelity 2020 College Savings Indicator
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div style="float: left;">
+                <p style="font-weight: 500; font-size: 28px; line-height:120%; letter-spacing: -0.01em; padding-bottom: 15px; color: white">
+                    Be the smartest parent in the class!
+                </p>
+                <p style="font-weight: 400; font-size: 16px; line-height:120%; letter-spacing: -0.01em; padding-bottom: 45px; color: white">
+                    Be the first to know about scholarship opportunities, <br>promotions and industry news.
+                </p>
+                
+                <div class="input-group suffix">                           
+                    <input type="text" name="input" placeholder="name@email.com" >
+                    <span class="input-group-addon ">Subscribe</span>
+                </div>
+            </div>
+            <div>
+                <div class="column-4">
+                    <p style="font-weight: 700; font-size: 14px; line-height:17px; letter-spacing: 0.2em; padding-bottom: 29px; color: white">
+                        MORE
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        About
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Blog
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Help Center
+                    </p>
+                </div>
+                <div class="column-4">
+                    <p style="font-weight: 700; font-size: 14px; line-height:17px; letter-spacing: 0.2em; padding-bottom: 29px; color: white">
+                        LEARN
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Saving Basics
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        College Basics
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        529 Basics
+                    </p>
+                </div>
+                <div class="column-4">
+                    <p style="padding-bottom: 49px;"></p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Prepaid Plans
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Investment Plans
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Dorm Plans
+                    </p>
+                </div>
+                <div class="column-4">
+                    <p style="font-weight: 700; font-size: 14px; line-height:17px; letter-spacing: 0.2em; padding-bottom: 29px; color: white">
+                        PLANS
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Overview of Plans
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Plan Builder
+                    </p>
+                    <p style="font-weight: 500; font-size: 15px; line-height:18px; padding-bottom: 26px; color: white">
+                        Pricing
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 75px; padding-right: 110px; clear: both;">
+            <div class="contact" style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <img src="./img/Facebook.png" alt="facebook avatar" style="padding-right: 31px;"/>
+                    <img src="./img/Twitter.png" alt="Twitter avatar" style="padding-right: 31px;"/>
+                    <img src="./img/Instagram.png" alt="Instagram avatar" style="padding-right: 31px;"/>
+                    <img src="./img/YouTube.png" alt="YouTube avatar"/>
+                </div>
+                <div style="display: flex;">
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Employer Outreach
+                    </p>
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Board Reports
+                    </p>
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Privacy
+                    </p>
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Terms of Use
+                    </p>
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Accessibility
+                    </p>
+                    <p style="font-weight: 500; font-size: 14px; line-height:17px; letter-spacing: -0.02em; padding-right: 30px; color: white">
+                        Contact
+                    </p>
+                </div>
+                <div>
+                    <p style="font-weight: 400; font-size: 11px; line-height:160%; letter-spacing: -0.02em; padding-bottom: 5px; padding-right: 30px; color: white">
+                        OTHER MANAGED BRANDS
+                    </p>
+                    <div>
+                        <img src="./img/FPCFoundation.png" alt="FPCFoundation avatar" style="padding-right: 28px;"/>
+                        <img src="./img/ABLE United.png" alt="ABLE avatar" style="padding-right: 1px;"/>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 1px; background-color: white; margin-top: 60px; margin-bottom: 43px;"></div>
+            <p style="font-weight: 400; font-size: 13px; line-height:180%; color: white">
+                The Florida Prepaid College Board does not provide tax or investment advice regarding its Florida Prepaid College Plans 
+                or Florida 529 Savings Plan. Florida Prepaid College Plans are financially guaranteed by the State of Florida,
+                 Section 1009.98(7), Florida Statutes. Florida Prepaid College Plans may not cover certain fees imposed by state universities 
+                 or colleges. Please read the Master Contract carefully. The Florida 529 Savings Plan is not guaranteed and is subject to 
+                 market conditions. Carefully consider the investment objectives, risks, charges and expenses before investing in the Florida 
+                 529 Savings Plan. As with any investment, it is possible to lose money by investing in this plan. Please read the Program 
+                 Description and Participation Agreement carefully.
+                <br><br>View the <a href="#"><strong>Master Contract</strong></a> and <a href="#"><strong>Program Description and Participation Agreement</strong></a> for more information.
+                <br><br>© 2022 Florida Prepaid. All rights reserved.
+            </p>
+        </div>
+        <button id="chat-btn">Live Chat</button>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
